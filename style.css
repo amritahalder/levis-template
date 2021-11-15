@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.container{
+	margin: 0 auto;
+	width: 800px;
+	overflow: hidden;
+}
+.site-header{
+	padding: 17px 0;
+}
+.logo{
+	width: 74px;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.navigation {
+	float: right;
+}
+.navigation ul{
+	overflow: hidden;
+}
+.navigation li {
+	float: left;
+	margin-right: 15px;
+	padding: 7px 0;
+}
+.navigation li a {
+	color: #c41230;
+	font-size: 16px;
+	font-family: Arial;
+}
+.navigation li:last-child {
+	margin-right: 0;
+}
+.site-banner{
+	background-color:#c41230;
+	height: 400px;
+	position: relative;
+}
+.site-banner h1{
+	color: #fff;
+	font-size: 42px;
+	margin: 0 0 15px;
+}
+.site-banner h3 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	margin: 0 0 20px;
+}
+.site-banner a {
+	background: #fff;
+	font-weight: 700;
+	color: #c41230;
+	font-size: 14px;
+	padding: 16px 29px;
+	display: inline-block;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+.site-banner-content {
+	position: absolute;
+	width: 800px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 50%;
+  transform: translateY(-50%);
+}
+.site-feature {
+	background-color: #ff9f48;
+	padding: 70px 0;
+}
+.site-feature h2 {
+	color: #c41230;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 0 0 55px;
+	text-align: center;
+}
+.feature-img {
+	width: 100%;
+	height: 130px;
+	background-color: #c41230;
+	border-radius: 4px;
+	margin: 0 0 10px;
+}
+.feature h3 {
+	font-weight: 600;
+	font-size: 20px;
+	color: #c41230;
+	margin: 0 0 10px;
+}
+.feature p {
+	font-size: 14px;
+	margin: 0 0 10px;
+}
+.feature a {
+	color: #c41230;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.feature-holder {
+	overflow: hidden;
+}
+.feature {
+	float: left;
+	width: 29.1%;
+	margin-right: 50px;
+}
+.feature:last-child {
+	margin-right: 0;
+}
+.site-footer {
+	text-align: center;
+	padding: 25px 0;
+}
+.site-footer p {
+	margin: 0;
+	color: #c41230;
+}
+.site-footer p a {
+	color: #c41230;
+	text-decoration: underline;
+}
